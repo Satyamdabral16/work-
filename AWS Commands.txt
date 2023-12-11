@@ -1,0 +1,57 @@
+AWS Commands 
+
+to chcek version-
+ AWS --version
+
+
+Setup the AWS-
+aws configure
+
+Basic command we run on Ubuntu after login 
+clear
+sudo apt-get update 
+
+after deploying the Vm for Linux -
+installing apache serevr -
+
+sudo apt-get install apache2 -y
+
+Install FTP-
+sudo apt install vsftpd
+
+verify FTP-
+systemctl status vsftpd
+
+VSFTP installing – 
+Sudo apt-get install vsftpd
+
+ALT+ U for undo in Ubuntu 
+
+to update all the packages while creating lightsail instance 
+Luanch Script option -
+$  yum update -y 
+
+cd ../ (go back just one )
+
+
+install FTP on lightsail-
+
+sudo apt update
+sudo apt install vsftpd
+sudo systemctl start vsftpd
+sudo systemctl enable vsftpd
+
+
+Delete a File: To remove a file, use the rm command followed by the file's name. For example:
+rm filename
+
+Delete a Directory: 
+rm -r directoryname
+
+To check all the directories created for the FTP users
+ls -l /srv/ftp
+If you're looking for a specific user's directory
+cd /srv/ftp/username  # Replace "username" with the actual username
+ls -l
+
+
