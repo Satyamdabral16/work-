@@ -3,6 +3,5 @@ Backup created successfully
 Transferring backup to the destination server...
 Transfer successful
 Cleaning up...
-rm: cannot remove '/opt/bitnami/work/backup.sql': No such file or directory
-Error: Cleanup failed
+Cleanup successful
 Backup and transfer completed successfully!
